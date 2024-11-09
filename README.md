@@ -71,12 +71,11 @@ After defining the environment variables in your GitHub Actions, your localizati
 ├── .husky                          # Husky configuration
 ├── .storybook                      # Storybook folder
 ├── .vscode                         # VSCode configuration
-├── migrations                      # Database migrations
 ├── public                          # Public assets folder
 ├── src
 │   ├── app                         # Next JS App (App Router)
 │   ├── components                  # React components
-│   ├── lib                        # 3rd party libraries configuration
+│   ├── lib                         # 3rd party libraries configuration
 │   ├── locales                     # Locales folder (i18n messages)
 │   ├── models                      # Database models
 │   ├── styles                      # Styles folder
@@ -84,9 +83,8 @@ After defining the environment variables in your GitHub Actions, your localizati
 │   ├── types                       # Type definitions
 │   ├── utils                       # Utilities folder
 │   └── validations                 # Validation schemas
-├── tests
-│   ├── e2e                         # E2E tests, also includes Monitoring as Code
-│   └── integration                 # Integration tests
+├── cypress
+│   ├── e2e                         # E2E tests
 ├── tailwind.config.js              # Tailwind CSS configuration
 └── tsconfig.json                   # TypeScript configuration
 ```
