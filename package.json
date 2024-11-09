@@ -2,8 +2,7 @@
   "name": "next-boilerplate",
   "version": "3.58.2",
   "scripts": {
-    "dev:next": "next dev",
-    "dev": "run-p dev:*",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "build-stats": "cross-env ANALYZE=true npm run build",
