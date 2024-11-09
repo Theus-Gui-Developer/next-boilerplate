@@ -126,7 +126,7 @@ npm run test
 The project uses Cypress for integration and end-to-end (E2E) testing. You can run the tests with the following commands:
 
 ```shell
-npx cypress:open
+npm run cypress:open
 ```
 
 In the local environment, visual testing is disabled, and the terminal will display the message `[percy] Percy is not running, disabling snapshots.`. By default, visual testing only runs in GitHub Actions.
