@@ -24,7 +24,7 @@ jobs:
           cache: npm
       - run: npm ci
 
-      - name: Build Next.js for E2E tests
+      - name: Build Next.js for unit tests
         run: npm run build
 
       - if: github.event_name == 'pull_request'
